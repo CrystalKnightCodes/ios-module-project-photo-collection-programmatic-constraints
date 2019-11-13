@@ -13,4 +13,9 @@ class PhotoCollectionViewCell: UICollectionViewCell {
     var photo: Photo?
     
     
+    func setUpSubviews() {
+        // Image
+        let imageView = UIImageView()
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+    }
 }
